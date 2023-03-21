@@ -1,0 +1,10 @@
+C:\Users\luisp\source\repos\Funeraria\Funeraria\bin\Debug\Funeraria.exe.config
+C:\Users\luisp\source\repos\Funeraria\Funeraria\bin\Debug\Funeraria.exe
+C:\Users\luisp\source\repos\Funeraria\Funeraria\bin\Debug\Funeraria.pdb
+C:\Users\luisp\source\repos\Funeraria\Funeraria\obj\Debug\Funeraria.csproj.AssemblyReference.cache
+C:\Users\luisp\source\repos\Funeraria\Funeraria\obj\Debug\Funeraria.Form1.resources
+C:\Users\luisp\source\repos\Funeraria\Funeraria\obj\Debug\Funeraria.Properties.Resources.resources
+C:\Users\luisp\source\repos\Funeraria\Funeraria\obj\Debug\Funeraria.csproj.GenerateResource.cache
+C:\Users\luisp\source\repos\Funeraria\Funeraria\obj\Debug\Funeraria.csproj.CoreCompileInputs.cache
+C:\Users\luisp\source\repos\Funeraria\Funeraria\obj\Debug\Funeraria.exe
+C:\Users\luisp\source\repos\Funeraria\Funeraria\obj\Debug\Funeraria.pdb

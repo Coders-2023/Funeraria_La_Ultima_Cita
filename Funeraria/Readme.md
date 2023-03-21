@@ -1,5 +1,5 @@
 ![LINCES](PIC_LINCES.jpeg)
-# Funreraria La Ultima Cita
+# Funeraria La Última Cita
 #### Universidad Autonoma de Occidente
 
 ### Proyecto desrrollado por:

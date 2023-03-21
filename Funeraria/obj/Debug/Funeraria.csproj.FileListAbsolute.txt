@@ -8,3 +8,14 @@ C:\Users\luisp\source\repos\Funeraria\Funeraria\obj\Debug\Funeraria.csproj.Gener
 C:\Users\luisp\source\repos\Funeraria\Funeraria\obj\Debug\Funeraria.csproj.CoreCompileInputs.cache
 C:\Users\luisp\source\repos\Funeraria\Funeraria\obj\Debug\Funeraria.exe
 C:\Users\luisp\source\repos\Funeraria\Funeraria\obj\Debug\Funeraria.pdb
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\bin\Debug\Funeraria.exe.config
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\bin\Debug\Funeraria.exe
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\bin\Debug\Funeraria.pdb
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.csproj.AssemblyReference.cache
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.Form1.resources
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.Properties.Resources.resources
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.segundapantalla.resources
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.csproj.GenerateResource.cache
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.csproj.CoreCompileInputs.cache
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.exe
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.pdb

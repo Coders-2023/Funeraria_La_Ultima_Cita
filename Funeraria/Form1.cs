@@ -16,5 +16,41 @@ namespace Funeraria
         {
             InitializeComponent();
         }
+
+        private void pboxeconomico_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btncontinuar_Click(object sender, EventArgs e)
+        {
+            Form datoscliente = new segundapantalla();
+            datoscliente.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pboxestandar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pboxoro_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pboxdiamante_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

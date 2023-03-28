@@ -19,3 +19,5 @@ C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.csproj.GenerateRes
 C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.csproj.CoreCompileInputs.cache
 C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.exe
 C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.pdb
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.tercerapantalla.resources
+C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.cuartapantalla.resources

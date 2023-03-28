@@ -10,22 +10,17 @@ using System.Windows.Forms;
 
 namespace Funeraria
 {
-    public partial class segundapantalla : Form
+    public partial class tercerapantalla : Form
     {
-        public segundapantalla()
+        public tercerapantalla()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form datosplanfunerario = new tercerapantalla();
-            datosplanfunerario.Show();
-        }
-
-        private void segundapantalla_Load(object sender, EventArgs e)
-        {
-
+            Form fichasdepago = new cuartapantalla();
+            fichasdepago.Show();
         }
     }
 }

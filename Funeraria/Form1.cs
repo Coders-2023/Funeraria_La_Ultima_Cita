@@ -52,5 +52,10 @@ namespace Funeraria
         {
 
         }
+
+        private void lblplanfunera_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

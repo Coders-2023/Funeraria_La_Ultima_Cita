@@ -29,113 +29,118 @@ namespace Funeraria
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(segundapantalla));
             this.lblplanfunera = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tboxnombrecliente = new System.Windows.Forms.TextBox();
+            this.tboxdomicilio = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rbtncasado = new System.Windows.Forms.RadioButton();
+            this.rbtnsoltero = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.tboxhijos = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.tboxingresosmen = new System.Windows.Forms.TextBox();
+            this.tboxingresosacu = new System.Windows.Forms.TextBox();
+            this.tboxplansug = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblslogan = new System.Windows.Forms.Label();
+            this.lblnombrefuneraria = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblplanfunera
             // 
             this.lblplanfunera.AutoSize = true;
             this.lblplanfunera.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblplanfunera.Location = new System.Drawing.Point(12, 118);
+            this.lblplanfunera.Location = new System.Drawing.Point(9, 136);
             this.lblplanfunera.Name = "lblplanfunera";
-            this.lblplanfunera.Size = new System.Drawing.Size(152, 20);
+            this.lblplanfunera.Size = new System.Drawing.Size(156, 20);
             this.lblplanfunera.TabIndex = 15;
-            this.lblplanfunera.Text = "Nombre del Cliente";
+            this.lblplanfunera.Text = "Nombre del Cliente:";
             // 
-            // textBox1
+            // tboxnombrecliente
             // 
-            this.textBox1.Location = new System.Drawing.Point(170, 118);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(470, 20);
-            this.textBox1.TabIndex = 16;
+            this.tboxnombrecliente.Location = new System.Drawing.Point(167, 136);
+            this.tboxnombrecliente.Name = "tboxnombrecliente";
+            this.tboxnombrecliente.Size = new System.Drawing.Size(470, 20);
+            this.tboxnombrecliente.TabIndex = 16;
             // 
-            // textBox2
+            // tboxdomicilio
             // 
-            this.textBox2.Location = new System.Drawing.Point(170, 160);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(470, 20);
-            this.textBox2.TabIndex = 18;
+            this.tboxdomicilio.Location = new System.Drawing.Point(167, 178);
+            this.tboxdomicilio.Name = "tboxdomicilio";
+            this.tboxdomicilio.Size = new System.Drawing.Size(470, 20);
+            this.tboxdomicilio.TabIndex = 18;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(86, 160);
+            this.label1.Location = new System.Drawing.Point(83, 178);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 20);
+            this.label1.Size = new System.Drawing.Size(82, 20);
             this.label1.TabIndex = 17;
-            this.label1.Text = "Domicilio";
+            this.label1.Text = "Domicilio:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(64, 197);
+            this.label2.Location = new System.Drawing.Point(61, 215);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 20);
             this.label2.TabIndex = 19;
             this.label2.Text = "Estado Civil:";
             // 
-            // radioButton1
+            // rbtncasado
             // 
-            this.radioButton1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(174, 183);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(114, 49);
-            this.radioButton1.TabIndex = 20;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "CASADO";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbtncasado.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtncasado.Location = new System.Drawing.Point(171, 201);
+            this.rbtncasado.Name = "rbtncasado";
+            this.rbtncasado.Size = new System.Drawing.Size(114, 49);
+            this.rbtncasado.TabIndex = 20;
+            this.rbtncasado.TabStop = true;
+            this.rbtncasado.Text = "CASADO";
+            this.rbtncasado.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // rbtnsoltero
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(333, 195);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(114, 24);
-            this.radioButton2.TabIndex = 21;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "SOLTERO";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbtnsoltero.AutoSize = true;
+            this.rbtnsoltero.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnsoltero.Location = new System.Drawing.Point(330, 213);
+            this.rbtnsoltero.Name = "rbtnsoltero";
+            this.rbtnsoltero.Size = new System.Drawing.Size(114, 24);
+            this.rbtnsoltero.TabIndex = 21;
+            this.rbtnsoltero.TabStop = true;
+            this.rbtnsoltero.Text = "SOLTERO";
+            this.rbtnsoltero.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(196, 235);
+            this.label3.Location = new System.Drawing.Point(193, 253);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 20);
             this.label3.TabIndex = 22;
             this.label3.Text = "HIJOS:";
             // 
-            // textBox3
+            // tboxhijos
             // 
-            this.textBox3.Location = new System.Drawing.Point(266, 235);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 23;
+            this.tboxhijos.Location = new System.Drawing.Point(263, 253);
+            this.tboxhijos.Name = "tboxhijos";
+            this.tboxhijos.Size = new System.Drawing.Size(100, 20);
+            this.tboxhijos.TabIndex = 23;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(29, 277);
+            this.label4.Location = new System.Drawing.Point(26, 295);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(159, 20);
             this.label4.TabIndex = 24;
@@ -145,7 +150,7 @@ namespace Funeraria
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 330);
+            this.label5.Location = new System.Drawing.Point(9, 348);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(176, 20);
             this.label5.TabIndex = 25;
@@ -155,7 +160,7 @@ namespace Funeraria
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(64, 389);
+            this.label6.Location = new System.Drawing.Point(61, 407);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(118, 20);
             this.label6.TabIndex = 26;
@@ -173,52 +178,88 @@ namespace Funeraria
             this.button1.Text = "Continuar";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // textBox4
+            // tboxingresosmen
             // 
-            this.textBox4.Location = new System.Drawing.Point(200, 279);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(166, 20);
-            this.textBox4.TabIndex = 28;
+            this.tboxingresosmen.Location = new System.Drawing.Point(197, 297);
+            this.tboxingresosmen.Name = "tboxingresosmen";
+            this.tboxingresosmen.Size = new System.Drawing.Size(166, 20);
+            this.tboxingresosmen.TabIndex = 28;
             // 
-            // textBox5
+            // tboxingresosacu
             // 
-            this.textBox5.Location = new System.Drawing.Point(200, 332);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(166, 20);
-            this.textBox5.TabIndex = 29;
+            this.tboxingresosacu.Location = new System.Drawing.Point(197, 350);
+            this.tboxingresosacu.Name = "tboxingresosacu";
+            this.tboxingresosacu.Size = new System.Drawing.Size(166, 20);
+            this.tboxingresosacu.TabIndex = 29;
             // 
-            // textBox6
+            // tboxplansug
             // 
-            this.textBox6.Location = new System.Drawing.Point(200, 391);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(212, 20);
-            this.textBox6.TabIndex = 30;
+            this.tboxplansug.Location = new System.Drawing.Point(197, 409);
+            this.tboxplansug.Name = "tboxplansug";
+            this.tboxplansug.Size = new System.Drawing.Size(212, 20);
+            this.tboxplansug.TabIndex = 30;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-5, -12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(166, 148);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 31;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lblslogan
+            // 
+            this.lblslogan.AutoSize = true;
+            this.lblslogan.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblslogan.Location = new System.Drawing.Point(360, 57);
+            this.lblslogan.Name = "lblslogan";
+            this.lblslogan.Size = new System.Drawing.Size(640, 20);
+            this.lblslogan.TabIndex = 33;
+            this.lblslogan.Text = "\"Ofrecemos consuelo en tiempos difíciles: la última despedida para aquellos que a" +
+    "mas.\"";
+            // 
+            // lblnombrefuneraria
+            // 
+            this.lblnombrefuneraria.AutoSize = true;
+            this.lblnombrefuneraria.Font = new System.Drawing.Font("Century", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnombrefuneraria.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblnombrefuneraria.Location = new System.Drawing.Point(441, 9);
+            this.lblnombrefuneraria.Name = "lblnombrefuneraria";
+            this.lblnombrefuneraria.Size = new System.Drawing.Size(492, 41);
+            this.lblnombrefuneraria.TabIndex = 32;
+            this.lblnombrefuneraria.Text = "Funeraria \"La Última Cita\"";
             // 
             // segundapantalla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(904, 527);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
+            this.ClientSize = new System.Drawing.Size(1035, 618);
+            this.Controls.Add(this.lblslogan);
+            this.Controls.Add(this.lblnombrefuneraria);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.tboxplansug);
+            this.Controls.Add(this.tboxingresosacu);
+            this.Controls.Add(this.tboxingresosmen);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.tboxhijos);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.rbtnsoltero);
+            this.Controls.Add(this.rbtncasado);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tboxdomicilio);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tboxnombrecliente);
             this.Controls.Add(this.lblplanfunera);
             this.Name = "segundapantalla";
             this.Text = "La Última Cena";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,20 +268,23 @@ namespace Funeraria
         #endregion
 
         private System.Windows.Forms.Label lblplanfunera;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tboxnombrecliente;
+        private System.Windows.Forms.TextBox tboxdomicilio;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton rbtncasado;
+        private System.Windows.Forms.RadioButton rbtnsoltero;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox tboxhijos;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox tboxingresosmen;
+        private System.Windows.Forms.TextBox tboxingresosacu;
+        private System.Windows.Forms.TextBox tboxplansug;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblslogan;
+        private System.Windows.Forms.Label lblnombrefuneraria;
     }
 }

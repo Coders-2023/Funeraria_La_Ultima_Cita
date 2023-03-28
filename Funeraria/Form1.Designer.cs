@@ -37,17 +37,19 @@ namespace Funeraria
             this.lblnombrefuneraria = new System.Windows.Forms.Label();
             this.btncontinuar = new System.Windows.Forms.Button();
             this.lblplanfunera = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblslogan = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pboxeconomico)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxoro)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxestandar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxdiamante)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pboxeconomico
             // 
             this.pboxeconomico.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pboxeconomico.BackgroundImage")));
-            this.pboxeconomico.Location = new System.Drawing.Point(267, 147);
+            this.pboxeconomico.Location = new System.Drawing.Point(250, 151);
             this.pboxeconomico.Name = "pboxeconomico";
             this.pboxeconomico.Size = new System.Drawing.Size(353, 196);
             this.pboxeconomico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -58,7 +60,7 @@ namespace Funeraria
             // pboxoro
             // 
             this.pboxoro.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pboxoro.BackgroundImage")));
-            this.pboxoro.Location = new System.Drawing.Point(267, 376);
+            this.pboxoro.Location = new System.Drawing.Point(250, 380);
             this.pboxoro.Name = "pboxoro";
             this.pboxoro.Size = new System.Drawing.Size(353, 182);
             this.pboxoro.TabIndex = 5;
@@ -68,7 +70,7 @@ namespace Funeraria
             // pboxestandar
             // 
             this.pboxestandar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pboxestandar.BackgroundImage")));
-            this.pboxestandar.Location = new System.Drawing.Point(704, 147);
+            this.pboxestandar.Location = new System.Drawing.Point(687, 151);
             this.pboxestandar.Name = "pboxestandar";
             this.pboxestandar.Size = new System.Drawing.Size(342, 196);
             this.pboxestandar.TabIndex = 6;
@@ -78,7 +80,7 @@ namespace Funeraria
             // pboxdiamante
             // 
             this.pboxdiamante.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pboxdiamante.BackgroundImage")));
-            this.pboxdiamante.Location = new System.Drawing.Point(704, 376);
+            this.pboxdiamante.Location = new System.Drawing.Point(687, 380);
             this.pboxdiamante.Name = "pboxdiamante";
             this.pboxdiamante.Size = new System.Drawing.Size(342, 182);
             this.pboxdiamante.TabIndex = 7;
@@ -88,10 +90,10 @@ namespace Funeraria
             // lblnombrefuneraria
             // 
             this.lblnombrefuneraria.AutoSize = true;
-            this.lblnombrefuneraria.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnombrefuneraria.Location = new System.Drawing.Point(558, 9);
+            this.lblnombrefuneraria.Font = new System.Drawing.Font("Century", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnombrefuneraria.Location = new System.Drawing.Point(400, 6);
             this.lblnombrefuneraria.Name = "lblnombrefuneraria";
-            this.lblnombrefuneraria.Size = new System.Drawing.Size(239, 20);
+            this.lblnombrefuneraria.Size = new System.Drawing.Size(492, 41);
             this.lblnombrefuneraria.TabIndex = 8;
             this.lblnombrefuneraria.Text = "Funeraria \"La Última Cita\"";
             // 
@@ -112,21 +114,33 @@ namespace Funeraria
             // 
             this.lblplanfunera.AutoSize = true;
             this.lblplanfunera.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblplanfunera.Location = new System.Drawing.Point(553, 104);
+            this.lblplanfunera.Location = new System.Drawing.Point(524, 117);
             this.lblplanfunera.Name = "lblplanfunera";
-            this.lblplanfunera.Size = new System.Drawing.Size(234, 20);
+            this.lblplanfunera.Size = new System.Drawing.Size(238, 20);
             this.lblplanfunera.TabIndex = 14;
-            this.lblplanfunera.Text = "Planes Funerarios Disponibles";
+            this.lblplanfunera.Text = "Planes Funerarios Disponibles:";
+            this.lblplanfunera.Click += new System.EventHandler(this.lblplanfunera_Click);
             // 
-            // label1
+            // lblslogan
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(630, 46);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 20);
-            this.label1.TabIndex = 15;
-            this.label1.Text = "\"slogan\"";
+            this.lblslogan.AutoSize = true;
+            this.lblslogan.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblslogan.Location = new System.Drawing.Point(319, 54);
+            this.lblslogan.Name = "lblslogan";
+            this.lblslogan.Size = new System.Drawing.Size(640, 20);
+            this.lblslogan.TabIndex = 15;
+            this.lblslogan.Text = "\"Ofrecemos consuelo en tiempos difíciles: la última despedida para aquellos que a" +
+    "mas.\"";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-14, -11);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(166, 148);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -134,7 +148,8 @@ namespace Funeraria
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(1363, 704);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.lblslogan);
             this.Controls.Add(this.lblplanfunera);
             this.Controls.Add(this.btncontinuar);
             this.Controls.Add(this.lblnombrefuneraria);
@@ -151,6 +166,7 @@ namespace Funeraria
             ((System.ComponentModel.ISupportInitialize)(this.pboxoro)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxestandar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pboxdiamante)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,7 +181,8 @@ namespace Funeraria
         private System.Windows.Forms.Label lblnombrefuneraria;
         private System.Windows.Forms.Button btncontinuar;
         private System.Windows.Forms.Label lblplanfunera;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblslogan;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

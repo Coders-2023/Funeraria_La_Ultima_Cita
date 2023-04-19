@@ -16,5 +16,19 @@ namespace Funeraria
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form menuprincipal = new Form1();
+            menuprincipal.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form regresar = new tercerapantalla();
+            regresar.Show();
+        }
     }
 }

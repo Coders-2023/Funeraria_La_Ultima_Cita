@@ -21,6 +21,14 @@ namespace Funeraria
         {
             Form fichasdepago = new cuartapantalla();
             fichasdepago.Show();
+            this.Close();
+        }
+
+        private void btnregresar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form regresar = new segundapantalla();
+            regresar.Show();
         }
     }
 }

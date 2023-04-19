@@ -49,6 +49,7 @@ namespace Funeraria
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblslogan = new System.Windows.Forms.Label();
             this.lblnombrefuneraria = new System.Windows.Forms.Label();
+            this.btnregresar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -171,7 +172,7 @@ namespace Funeraria
             this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(360, 435);
+            this.button1.Location = new System.Drawing.Point(197, 481);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(201, 48);
             this.button1.TabIndex = 27;
@@ -232,12 +233,26 @@ namespace Funeraria
             this.lblnombrefuneraria.TabIndex = 32;
             this.lblnombrefuneraria.Text = "Funeraria \"La Última Cita\"";
             // 
+            // btnregresar
+            // 
+            this.btnregresar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnregresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnregresar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnregresar.Location = new System.Drawing.Point(486, 481);
+            this.btnregresar.Name = "btnregresar";
+            this.btnregresar.Size = new System.Drawing.Size(201, 48);
+            this.btnregresar.TabIndex = 34;
+            this.btnregresar.Text = "Regresar";
+            this.btnregresar.UseVisualStyleBackColor = false;
+            this.btnregresar.Click += new System.EventHandler(this.btnregresar_Click);
+            // 
             // segundapantalla
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(1035, 618);
+            this.Controls.Add(this.btnregresar);
             this.Controls.Add(this.lblslogan);
             this.Controls.Add(this.lblnombrefuneraria);
             this.Controls.Add(this.pictureBox1);
@@ -288,5 +303,6 @@ namespace Funeraria
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblslogan;
         private System.Windows.Forms.Label lblnombrefuneraria;
+        private System.Windows.Forms.Button btnregresar;
     }
 }

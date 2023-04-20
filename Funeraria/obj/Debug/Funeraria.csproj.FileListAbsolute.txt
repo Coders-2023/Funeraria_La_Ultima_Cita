@@ -21,3 +21,16 @@ C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.exe
 C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.pdb
 C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.tercerapantalla.resources
 C:\UNIVERSIDAD 6TO SEMESTRE\DSS\Funeraria\obj\Debug\Funeraria.cuartapantalla.resources
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\obj\Debug\Funeraria.csproj.AssemblyReference.cache
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\obj\Debug\Funeraria.cuartapantalla.resources
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\obj\Debug\Funeraria.Form1.resources
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\obj\Debug\Funeraria.Properties.Resources.resources
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\obj\Debug\Funeraria.segundapantalla.resources
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\obj\Debug\Funeraria.tercerapantalla.resources
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\obj\Debug\Funeraria.csproj.GenerateResource.cache
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\obj\Debug\Funeraria.csproj.CoreCompileInputs.cache
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\obj\Debug\Funeraria.exe
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\obj\Debug\Funeraria.pdb
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\bin\Debug\Funeraria.exe.config
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\bin\Debug\Funeraria.exe
+C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\bin\Debug\Funeraria.pdb

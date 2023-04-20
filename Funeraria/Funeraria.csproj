@@ -46,6 +46,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="clases\clsCliente.cs" />
+    <Compile Include="clases\conexion.cs" />
+    <Compile Include="clases\clsPaquete.cs" />
+    <Compile Include="clases\clsRecibo.cs" />
     <Compile Include="cuartapantalla.cs">
       <SubType>Form</SubType>
     </Compile>

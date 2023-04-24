@@ -121,7 +121,7 @@
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAKYAAACUCAYAAAAZOlLRAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAARBpJREFUeF7tfQV8VMf2P1qoewvU+2iLtGhxDx7i7u5OhIQICRaFAHF33chuZOPJ
+        wQAADsEBuJFr7QAARBpJREFUeF7tfQV8VMf2P1qoewvU+2iLtGhxDx7i7u5OhIQICRaFAHF33chuZOPJ
         xt3d3TcbNwgw/zPbLL+Uhr72vb7/K7z7/XzO5947c+6ZmTvfe+acu3d3VxAgQIAAAQIECBAgQIAAAQIE
         CBAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIE/ufxkD62sqe6YfvIUP/ri0UECPz30ZBGEyKJKQ83Rybo
         LBYRIPD/H09HJlbOVbXsnZgYXznbM/husuzVwVA2IZSib1uy0McgvCaB/w7o2UU8ccqGg/W0LIHR7DKu
@@ -415,4 +415,13 @@
         SUVORK5CYII=
 </value>
   </data>
+  <metadata name="clientesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>138, 17</value>
+  </metadata>
+  <metadata name="dS_Funeraria.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="clientesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>309, 17</value>
+  </metadata>
 </root>

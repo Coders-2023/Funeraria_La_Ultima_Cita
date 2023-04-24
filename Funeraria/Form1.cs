@@ -31,6 +31,7 @@ namespace Funeraria
         {
             Form datoscliente = new segundapantalla();
             datoscliente.Show();
+            this.Hide();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -49,6 +50,11 @@ namespace Funeraria
         }
 
         private void pboxdiamante_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblplanfunera_Click(object sender, EventArgs e)
         {
 
         }

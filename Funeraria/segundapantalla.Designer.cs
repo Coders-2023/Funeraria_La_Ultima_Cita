@@ -29,196 +29,288 @@ namespace Funeraria
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(segundapantalla));
             this.lblplanfunera = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.txtnombrecliente = new System.Windows.Forms.TextBox();
+            this.txtdomicilio = new System.Windows.Forms.TextBox();
+            this.lbldomicilio = new System.Windows.Forms.Label();
+            this.lvlestadocivil = new System.Windows.Forms.Label();
+            this.rbtncasado = new System.Windows.Forms.RadioButton();
+            this.rbtnsoltero = new System.Windows.Forms.RadioButton();
+            this.lblhijos = new System.Windows.Forms.Label();
+            this.lblingresosmensuales = new System.Windows.Forms.Label();
+            this.lblingresosacumulables = new System.Windows.Forms.Label();
+            this.lblplansugerido = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtingresomen = new System.Windows.Forms.TextBox();
+            this.txtingresoacu = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblslogan = new System.Windows.Forms.Label();
+            this.lblnombrefuneraria = new System.Windows.Forms.Label();
+            this.btnregresar = new System.Windows.Forms.Button();
+            this.cboxhijos = new System.Windows.Forms.ComboBox();
+            this.cboxplansugerido = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblplanfunera
             // 
             this.lblplanfunera.AutoSize = true;
             this.lblplanfunera.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblplanfunera.Location = new System.Drawing.Point(12, 118);
+            this.lblplanfunera.Location = new System.Drawing.Point(12, 167);
+            this.lblplanfunera.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblplanfunera.Name = "lblplanfunera";
-            this.lblplanfunera.Size = new System.Drawing.Size(152, 20);
+            this.lblplanfunera.Size = new System.Drawing.Size(195, 23);
             this.lblplanfunera.TabIndex = 15;
-            this.lblplanfunera.Text = "Nombre del Cliente";
+            this.lblplanfunera.Text = "Nombre del Cliente:";
             // 
-            // textBox1
+            // txtnombrecliente
             // 
-            this.textBox1.Location = new System.Drawing.Point(170, 118);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(470, 20);
-            this.textBox1.TabIndex = 16;
+            this.txtnombrecliente.Location = new System.Drawing.Point(223, 167);
+            this.txtnombrecliente.Margin = new System.Windows.Forms.Padding(4);
+            this.txtnombrecliente.Name = "txtnombrecliente";
+            this.txtnombrecliente.Size = new System.Drawing.Size(625, 22);
+            this.txtnombrecliente.TabIndex = 16;
             // 
-            // textBox2
+            // txtdomicilio
             // 
-            this.textBox2.Location = new System.Drawing.Point(170, 160);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(470, 20);
-            this.textBox2.TabIndex = 18;
+            this.txtdomicilio.Location = new System.Drawing.Point(223, 219);
+            this.txtdomicilio.Margin = new System.Windows.Forms.Padding(4);
+            this.txtdomicilio.Name = "txtdomicilio";
+            this.txtdomicilio.Size = new System.Drawing.Size(625, 22);
+            this.txtdomicilio.TabIndex = 18;
             // 
-            // label1
+            // lbldomicilio
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(86, 160);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 20);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Domicilio";
+            this.lbldomicilio.AutoSize = true;
+            this.lbldomicilio.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldomicilio.Location = new System.Drawing.Point(111, 219);
+            this.lbldomicilio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbldomicilio.Name = "lbldomicilio";
+            this.lbldomicilio.Size = new System.Drawing.Size(103, 23);
+            this.lbldomicilio.TabIndex = 17;
+            this.lbldomicilio.Text = "Domicilio:";
             // 
-            // label2
+            // lvlestadocivil
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(64, 197);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 20);
-            this.label2.TabIndex = 19;
-            this.label2.Text = "Estado Civil:";
+            this.lvlestadocivil.AutoSize = true;
+            this.lvlestadocivil.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lvlestadocivil.Location = new System.Drawing.Point(81, 265);
+            this.lvlestadocivil.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lvlestadocivil.Name = "lvlestadocivil";
+            this.lvlestadocivil.Size = new System.Drawing.Size(128, 23);
+            this.lvlestadocivil.TabIndex = 19;
+            this.lvlestadocivil.Text = "Estado Civil:";
             // 
-            // radioButton1
+            // rbtncasado
             // 
-            this.radioButton1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(174, 183);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(114, 49);
-            this.radioButton1.TabIndex = 20;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "CASADO";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rbtncasado.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtncasado.Location = new System.Drawing.Point(228, 247);
+            this.rbtncasado.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtncasado.Name = "rbtncasado";
+            this.rbtncasado.Size = new System.Drawing.Size(152, 60);
+            this.rbtncasado.TabIndex = 20;
+            this.rbtncasado.TabStop = true;
+            this.rbtncasado.Text = "CASADO";
+            this.rbtncasado.UseVisualStyleBackColor = true;
+            this.rbtncasado.CheckedChanged += new System.EventHandler(this.rbtncasado_CheckedChanged);
             // 
-            // radioButton2
+            // rbtnsoltero
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(333, 195);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(114, 24);
-            this.radioButton2.TabIndex = 21;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "SOLTERO";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rbtnsoltero.AutoSize = true;
+            this.rbtnsoltero.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtnsoltero.Location = new System.Drawing.Point(440, 262);
+            this.rbtnsoltero.Margin = new System.Windows.Forms.Padding(4);
+            this.rbtnsoltero.Name = "rbtnsoltero";
+            this.rbtnsoltero.Size = new System.Drawing.Size(137, 27);
+            this.rbtnsoltero.TabIndex = 21;
+            this.rbtnsoltero.TabStop = true;
+            this.rbtnsoltero.Text = "SOLTERO";
+            this.rbtnsoltero.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // lblhijos
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(196, 235);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 20);
-            this.label3.TabIndex = 22;
-            this.label3.Text = "HIJOS:";
+            this.lblhijos.AutoSize = true;
+            this.lblhijos.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblhijos.Location = new System.Drawing.Point(257, 311);
+            this.lblhijos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblhijos.Name = "lblhijos";
+            this.lblhijos.Size = new System.Drawing.Size(81, 23);
+            this.lblhijos.TabIndex = 22;
+            this.lblhijos.Text = "HIJOS:";
             // 
-            // textBox3
+            // lblingresosmensuales
             // 
-            this.textBox3.Location = new System.Drawing.Point(266, 235);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 23;
+            this.lblingresosmensuales.AutoSize = true;
+            this.lblingresosmensuales.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblingresosmensuales.Location = new System.Drawing.Point(35, 363);
+            this.lblingresosmensuales.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblingresosmensuales.Name = "lblingresosmensuales";
+            this.lblingresosmensuales.Size = new System.Drawing.Size(198, 23);
+            this.lblingresosmensuales.TabIndex = 24;
+            this.lblingresosmensuales.Text = "Ingresos Mensuales:";
             // 
-            // label4
+            // lblingresosacumulables
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(29, 277);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(159, 20);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "Ingresos Mensuales:";
+            this.lblingresosacumulables.AutoSize = true;
+            this.lblingresosacumulables.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblingresosacumulables.Location = new System.Drawing.Point(12, 428);
+            this.lblingresosacumulables.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblingresosacumulables.Name = "lblingresosacumulables";
+            this.lblingresosacumulables.Size = new System.Drawing.Size(218, 23);
+            this.lblingresosacumulables.TabIndex = 25;
+            this.lblingresosacumulables.Text = "Ingresos Acumulables:";
             // 
-            // label5
+            // lblplansugerido
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(12, 330);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(176, 20);
-            this.label5.TabIndex = 25;
-            this.label5.Text = "Ingresos Acumulables:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(64, 389);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(118, 20);
-            this.label6.TabIndex = 26;
-            this.label6.Text = "Plan Sugerido:";
+            this.lblplansugerido.AutoSize = true;
+            this.lblplansugerido.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblplansugerido.Location = new System.Drawing.Point(81, 501);
+            this.lblplansugerido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblplansugerido.Name = "lblplansugerido";
+            this.lblplansugerido.Size = new System.Drawing.Size(146, 23);
+            this.lblplansugerido.TabIndex = 26;
+            this.lblplansugerido.Text = "Plan Sugerido:";
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(360, 435);
+            this.button1.Location = new System.Drawing.Point(263, 592);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(201, 48);
+            this.button1.Size = new System.Drawing.Size(268, 59);
             this.button1.TabIndex = 27;
             this.button1.Text = "Continuar";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox4
+            // txtingresomen
             // 
-            this.textBox4.Location = new System.Drawing.Point(200, 279);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(166, 20);
-            this.textBox4.TabIndex = 28;
+            this.txtingresomen.Location = new System.Drawing.Point(263, 366);
+            this.txtingresomen.Margin = new System.Windows.Forms.Padding(4);
+            this.txtingresomen.Name = "txtingresomen";
+            this.txtingresomen.Size = new System.Drawing.Size(220, 22);
+            this.txtingresomen.TabIndex = 28;
             // 
-            // textBox5
+            // txtingresoacu
             // 
-            this.textBox5.Location = new System.Drawing.Point(200, 332);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(166, 20);
-            this.textBox5.TabIndex = 29;
+            this.txtingresoacu.Location = new System.Drawing.Point(263, 431);
+            this.txtingresoacu.Margin = new System.Windows.Forms.Padding(4);
+            this.txtingresoacu.Name = "txtingresoacu";
+            this.txtingresoacu.Size = new System.Drawing.Size(220, 22);
+            this.txtingresoacu.TabIndex = 29;
             // 
-            // textBox6
+            // pictureBox1
             // 
-            this.textBox6.Location = new System.Drawing.Point(200, 391);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(212, 20);
-            this.textBox6.TabIndex = 30;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(-7, -15);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(166, 148);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 31;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lblslogan
+            // 
+            this.lblslogan.AutoSize = true;
+            this.lblslogan.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblslogan.Location = new System.Drawing.Point(480, 70);
+            this.lblslogan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblslogan.Name = "lblslogan";
+            this.lblslogan.Size = new System.Drawing.Size(811, 23);
+            this.lblslogan.TabIndex = 33;
+            this.lblslogan.Text = "\"Ofrecemos consuelo en tiempos difíciles: la última despedida para aquellos que a" +
+    "mas.\"";
+            // 
+            // lblnombrefuneraria
+            // 
+            this.lblnombrefuneraria.AutoSize = true;
+            this.lblnombrefuneraria.Font = new System.Drawing.Font("Century", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblnombrefuneraria.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.lblnombrefuneraria.Location = new System.Drawing.Point(588, 11);
+            this.lblnombrefuneraria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblnombrefuneraria.Name = "lblnombrefuneraria";
+            this.lblnombrefuneraria.Size = new System.Drawing.Size(610, 54);
+            this.lblnombrefuneraria.TabIndex = 32;
+            this.lblnombrefuneraria.Text = "Funeraria \"La Última Cita\"";
+            // 
+            // btnregresar
+            // 
+            this.btnregresar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnregresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnregresar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnregresar.Location = new System.Drawing.Point(648, 592);
+            this.btnregresar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnregresar.Name = "btnregresar";
+            this.btnregresar.Size = new System.Drawing.Size(268, 59);
+            this.btnregresar.TabIndex = 34;
+            this.btnregresar.Text = "Regresar";
+            this.btnregresar.UseVisualStyleBackColor = false;
+            this.btnregresar.Click += new System.EventHandler(this.btnregresar_Click);
+            // 
+            // cboxhijos
+            // 
+            this.cboxhijos.Enabled = false;
+            this.cboxhijos.FormattingEnabled = true;
+            this.cboxhijos.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3+"});
+            this.cboxhijos.Location = new System.Drawing.Point(345, 310);
+            this.cboxhijos.Name = "cboxhijos";
+            this.cboxhijos.Size = new System.Drawing.Size(186, 24);
+            this.cboxhijos.TabIndex = 35;
+            this.cboxhijos.Text = "Seleccione una opcion";
+            // 
+            // cboxplansugerido
+            // 
+            this.cboxplansugerido.FormattingEnabled = true;
+            this.cboxplansugerido.Items.AddRange(new object[] {
+            "Economico",
+            "Estandar",
+            "Oro",
+            "Diamante"});
+            this.cboxplansugerido.Location = new System.Drawing.Point(263, 504);
+            this.cboxplansugerido.Name = "cboxplansugerido";
+            this.cboxplansugerido.Size = new System.Drawing.Size(268, 24);
+            this.cboxplansugerido.TabIndex = 36;
+            this.cboxplansugerido.Text = "Seleccione una opcion";
             // 
             // segundapantalla
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(904, 527);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
+            this.ClientSize = new System.Drawing.Size(1380, 761);
+            this.Controls.Add(this.cboxplansugerido);
+            this.Controls.Add(this.cboxhijos);
+            this.Controls.Add(this.btnregresar);
+            this.Controls.Add(this.lblslogan);
+            this.Controls.Add(this.lblnombrefuneraria);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.txtingresoacu);
+            this.Controls.Add(this.txtingresomen);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblplansugerido);
+            this.Controls.Add(this.lblingresosacumulables);
+            this.Controls.Add(this.lblingresosmensuales);
+            this.Controls.Add(this.lblhijos);
+            this.Controls.Add(this.rbtnsoltero);
+            this.Controls.Add(this.rbtncasado);
+            this.Controls.Add(this.lvlestadocivil);
+            this.Controls.Add(this.txtdomicilio);
+            this.Controls.Add(this.lbldomicilio);
+            this.Controls.Add(this.txtnombrecliente);
             this.Controls.Add(this.lblplanfunera);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "segundapantalla";
             this.Text = "La Última Cena";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,20 +319,24 @@ namespace Funeraria
         #endregion
 
         private System.Windows.Forms.Label lblplanfunera;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtnombrecliente;
+        private System.Windows.Forms.TextBox txtdomicilio;
+        private System.Windows.Forms.Label lbldomicilio;
+        private System.Windows.Forms.Label lvlestadocivil;
+        private System.Windows.Forms.RadioButton rbtncasado;
+        private System.Windows.Forms.RadioButton rbtnsoltero;
+        private System.Windows.Forms.Label lblhijos;
+        private System.Windows.Forms.Label lblingresosmensuales;
+        private System.Windows.Forms.Label lblingresosacumulables;
+        private System.Windows.Forms.Label lblplansugerido;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtingresomen;
+        private System.Windows.Forms.TextBox txtingresoacu;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblslogan;
+        private System.Windows.Forms.Label lblnombrefuneraria;
+        private System.Windows.Forms.Button btnregresar;
+        private System.Windows.Forms.ComboBox cboxhijos;
+        private System.Windows.Forms.ComboBox cboxplansugerido;
     }
 }

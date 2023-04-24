@@ -12,6 +12,8 @@ namespace Funeraria
 {
     public partial class Form1 : Form
     {
+        segundapantalla datoscliente = new segundapantalla();
+
         public Form1()
         {
             InitializeComponent();
@@ -29,7 +31,6 @@ namespace Funeraria
 
         private void btncontinuar_Click(object sender, EventArgs e)
         {
-            Form datoscliente = new segundapantalla();
             datoscliente.Show();
             this.Hide();
         }

@@ -34,3 +34,17 @@ C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\obj\Deb
 C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\bin\Debug\Funeraria.exe.config
 C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\bin\Debug\Funeraria.exe
 C:\Users\Melissa Gerardo\Desktop\Funeraria_La_Ultima_Cita-luis\Funeraria\bin\Debug\Funeraria.pdb
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\bin\Debug\Funeraria.exe.config
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\bin\Debug\Funeraria.exe
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\bin\Debug\Funeraria.pdb
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.csproj.AssemblyReference.cache
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.csproj.SuggestedBindingRedirects.cache
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.cuartapantalla.resources
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.Form1.resources
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.Properties.Resources.resources
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.segundapantalla.resources
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.tercerapantalla.resources
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.csproj.GenerateResource.cache
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.csproj.CoreCompileInputs.cache
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.exe
+A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.pdb

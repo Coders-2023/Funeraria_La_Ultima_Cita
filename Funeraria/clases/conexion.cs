@@ -10,10 +10,9 @@ namespace Funeraria.clases
     {
        public static string conectar()
         {
-
-            string conex = @"Data Source =LAPTOP-FV3BA69A; Initial Catalog = funeraria; Integrated Security = True";
+            string servidor = "FALCON-DELL\\FALCONSQL";
+            string conex = @"Data Source = "+servidor+"; Initial Catalog = funeraria; Integrated Security = True";
             return conex;
-
         }
     }
 }

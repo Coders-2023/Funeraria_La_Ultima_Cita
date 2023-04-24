@@ -17,6 +17,7 @@ namespace Funeraria
 {
     public partial class segundapantalla : Form
     {
+        clsCliente oCliente = new clsCliente();
         string Sconexion;
         char casado; // "Y" igual a casado
         public segundapantalla()
@@ -47,10 +48,9 @@ namespace Funeraria
 
         private void GuardarCliente()
         {
-            clsCliente oCliente = new clsCliente();
             //oCliente.idcliente = Convert.ToInt32(txtid.Text);
             oCliente.nombre = txtnombrecliente.Text;
-            oCliente. domicilio = txtdomicilio.Text;
+            oCliente.domicilio = txtdomicilio.Text;
             oCliente.estadocivil = casado;
             oCliente.ingresoMen = Convert.ToInt32(txtingresomen.Text);
             oCliente.ingresoAcum = Convert.ToInt32(txtingresoacu.Text);

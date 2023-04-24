@@ -5,49 +5,78 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
+using System.Collections;
+using System.Drawing;
 
 namespace Funeraria.clases
 {
     class clsCliente
     {
+        SqlConnection con = new SqlConnection(conexion.conectar());
+        SqlCommand cmd;
+        bool respuesta;
         public int idcliente { get; set; }
         public string nombre { get; set; }
         public string domicilio{ get; set; }
-        public char estadocivil { get; set; }
-        public bool hijos { get; set; }
-        public int ingresoMen { get; set; }
-        public int ingresoAcum { get; set; }
+        public bool estadocivil { get; set; }
+        public int hijos { get; set; }
+        public float ingresoMen { get; set; }
+        public float ingresoAcum { get; set; }
+
     
-    public bool GuardarCliente()
-    {
-
-        SqlConnection con = new SqlConnection(conexion.conectar());
-        SqlCommand cmd = new SqlCommand("", con);
-        bool respuesta;
-        cmd.CommandType = CommandType.StoredProcedure;
-        cmd.CommandText = "SP_CLIENTE";
-
-        cmd.Parameters.AddWithValue("@OP", 1);
-        cmd.Parameters.AddWithValue("@IDCLIENTE", idcliente);
-        cmd.Parameters.AddWithValue("@NOMBRE", nombre);
-        cmd.Parameters.AddWithValue("@DOMICILIO", domicilio);
-        cmd.Parameters.AddWithValue("@ESTADOCIVIL", estadocivil);
-        cmd.Parameters.AddWithValue("@HIJOS", hijos);
-        cmd.Parameters.AddWithValue("@INGRESOMEN", ingresoMen);
-        cmd.Parameters.AddWithValue("@INGRESOACUM", ingresoAcum);
-        try
+        public void Set_Data()
         {
-            con.Open();
-            cmd.ExecuteNonQuery();
-            respuesta = true;
+            cmd.Parameters.AddWithValue("@IDCLIENTE", idcliente);
+            cmd.Parameters.AddWithValue("@NOMBRE", nombre);
+            cmd.Parameters.AddWithValue("@DOMICILIO", domicilio);
+            cmd.Parameters.AddWithValue("@ESTADOCIVIL", estadocivil);
+            cmd.Parameters.AddWithValue("@HIJOS", hijos);
+            cmd.Parameters.AddWithValue("@INGRESOMEN", ingresoMen);
+            cmd.Parameters.AddWithValue("@INGRESOACUM", ingresoAcum);
         }
-        catch (Exception ex)
+        public bool GuardarCliente()
         {
-            respuesta = false;
+            cmd = new SqlCommand("", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "SP_CLIENTE";
+    
+            cmd.Parameters.AddWithValue("@OP", 1);
+            Set_Data();
+            try
+            {
+                con.Open();
+                cmd.ExecuteNonQuery();
+                respuesta = true;
+            }
+            catch (Exception ex)
+            {
+                respuesta = false;
+            }
+            con.Close();
+    
+            return respuesta;
         }
-        con.Close();
+        public bool EliminarCliente()
+        {
+            cmd = new SqlCommand("", con);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "SP_CLIENTE";
 
-        return respuesta;
-     }
-   }
+            cmd.Parameters.AddWithValue("@OP", 2);
+            cmd.Parameters.AddWithValue("@IDCLIENTE", idcliente);
+            try
+            {
+                con.Open();
+                cmd.ExecuteNonQuery();
+                respuesta = true;
+            }
+            catch (Exception ex)
+            {
+                respuesta = false;
+            }
+            con.Close();
+
+            return respuesta;
+        }
+    }
 }

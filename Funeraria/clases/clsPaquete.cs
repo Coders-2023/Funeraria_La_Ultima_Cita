@@ -8,5 +8,6 @@ namespace Funeraria.clases
 {
     class clsPaquete
     {
+        string hola;
     }
 }

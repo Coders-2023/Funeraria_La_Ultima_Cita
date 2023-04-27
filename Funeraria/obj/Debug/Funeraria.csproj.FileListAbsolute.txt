@@ -48,3 +48,16 @@ A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.csproj.GenerateReso
 A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.csproj.CoreCompileInputs.cache
 A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.exe
 A:\REPOSITORIOS\FUNERARIA 2023\Funeraria\obj\Debug\Funeraria.pdb
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\bin\Debug\Funeraria.exe.config
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\bin\Debug\Funeraria.exe
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\bin\Debug\Funeraria.pdb
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\obj\Debug\Funeraria.csproj.AssemblyReference.cache
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\obj\Debug\Funeraria.cuartapantalla.resources
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\obj\Debug\Funeraria.Form1.resources
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\obj\Debug\Funeraria.Properties.Resources.resources
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\obj\Debug\Funeraria.segundapantalla.resources
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\obj\Debug\Funeraria.tercerapantalla.resources
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\obj\Debug\Funeraria.csproj.GenerateResource.cache
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\obj\Debug\Funeraria.csproj.CoreCompileInputs.cache
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\obj\Debug\Funeraria.exe
+C:\Users\Melissa Gerardo\Desktop\REPOSITORIOS\Funeraria\obj\Debug\Funeraria.pdb

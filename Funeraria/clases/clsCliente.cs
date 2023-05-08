@@ -36,7 +36,6 @@ namespace Funeraria.clases
             cmd.Parameters.AddWithValue("@INGRESOMEN", ingresoMen);
             cmd.Parameters.AddWithValue("@INGRESOACUM", ingresoAcum);
             cmd.Parameters.AddWithValue("@PLANSUGERIDO", plansugerido);
-
         }
         public bool GuardarCliente()
         {
@@ -68,20 +67,23 @@ namespace Funeraria.clases
             cmd.CommandText = "SP_CLIENTE";
 
             cmd.Parameters.AddWithValue("@OP", 2);
-            cmd.Parameters.AddWithValue("@IDCLIENTE", idcliente);
+            Set_Data();
             try
             {
                 con.Open();
                 cmd.ExecuteNonQuery();
+                MessageBox.Show("Eliminación cumplida");
                 respuesta = true;
             }
             catch (Exception ex)
             {
+                MessageBox.Show("Error al Eliminar: " + ex);
                 respuesta = false;
             }
             con.Close();
 
             return respuesta;
         }
+   
     }
 }

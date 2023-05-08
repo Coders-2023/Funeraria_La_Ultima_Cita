@@ -13,6 +13,7 @@ using System.Drawing.Text;
 using System.Runtime.CompilerServices;
 using Funeraria.clases;
 using System.Collections;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Funeraria
 {
@@ -62,16 +63,36 @@ namespace Funeraria
             Actualizar_Data();
         }
 
+
         private void txtingresomen_KeyPress(object sender, KeyPressEventArgs e)
         {
             if(e.KeyChar == 13)
             {
                 Desicion_Rules();
                 BTN_Guardar.Focus();
+
+                txtingresoacu.Text = acumulables.ToString ("N2");
+                Acumulable();
+
+                //txtingresomen.Text = ingresos.ToString("N2"); ;
+                //FormatoMoneda(txtingresomen);
             }
+
+
+        }
+
+        private void txtingresomen_TextChanged(object sender, EventArgs e)
+        {
+            //txtingresomen.Text = Form(lblingresosmensuales, "$ #0.00");
+
+        }
+
+        private void DTG_Clientes_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
         #region Botones
-        private void BTN_Guardar_Click(object sender, EventArgs e)
+        public void BTN_Guardar_Click(object sender, EventArgs e)
         {
             Set_Data_Variables();
             if (Verify_Data())
@@ -83,6 +104,7 @@ namespace Funeraria
                 GuardarCliente();
             }
             Actualizar_Data();
+
         }
         private void btnregresar_Click(object sender, EventArgs e)
         {
@@ -103,8 +125,39 @@ namespace Funeraria
                 casado = true;
             }
         }
+
+        public void btncontinuar_Click(object sender, EventArgs e)
+        {
+            //Form pantalla = new tercerapantalla();
+            //pantalla.Show();
+            //this.Hide();
+
+
+            
+            tercerapantalla tercera = new tercerapantalla();
+            tercera.cboxplansugerido2.Text = cboxplansugerido.Text;
+            tercera.Show();
+            //AddOwnedForm(FHPP);
+            //cboxplansugerido.Text = this.txtplan();
+            //FHPP.Show();
+        }
+
+
+        private void BTN_Eliminar_Click(object sender, EventArgs e)
+        {
+            Eliminar();
+        }
         #endregion
+
         #region Metodos
+        public void Eliminar()
+        {
+            Set_Data_Variables();
+            oCliente.EliminarCliente();
+            Actualizar_Data();
+        }
+
+
         public void Set_Data_Variables()
         {
             CL_Nombre = txtnombrecliente.Text;
@@ -229,5 +282,31 @@ namespace Funeraria
             con.Close();
         }
         #endregion
+
+        public void FormatoMoneda(TextBox xTBox)
+        {
+            if (xTBox.Text == string.Empty)
+            {
+                return;
+            }
+            else
+            {
+                decimal Monto;
+
+                Monto = Convert.ToDecimal(xTBox.Text);
+                xTBox.Text = Monto.ToString("N2");
+            }
+        }
+
+
+        private void txtingresomen_Leave(object sender, EventArgs e)
+        {
+            FormatoMoneda(txtingresomen);
+        }
+
+        private void txtingresoacu_Leave(object sender, EventArgs e)
+        {
+            FormatoMoneda(txtingresoacu);
+        }
     }
 }

@@ -66,6 +66,9 @@ namespace Funeraria
             this.label1 = new System.Windows.Forms.Label();
             this.BTN_Eliminar = new System.Windows.Forms.Button();
             this.clientesTableAdapter = new Funeraria.DS_Clientes_MelisaTableAdapters.clientesTableAdapter();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btncontinuar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DTG_Clientes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.clientesBindingSource)).BeginInit();
@@ -212,6 +215,7 @@ namespace Funeraria
             this.txtingresomen.Name = "txtingresomen";
             this.txtingresomen.Size = new System.Drawing.Size(220, 22);
             this.txtingresomen.TabIndex = 28;
+            this.txtingresomen.TextChanged += new System.EventHandler(this.txtingresomen_TextChanged);
             this.txtingresomen.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtingresomen_KeyPress);
             // 
             // txtingresoacu
@@ -322,7 +326,7 @@ namespace Funeraria
             this.ingresoAcumDataGridViewTextBoxColumn,
             this.plansugeridoDataGridViewTextBoxColumn});
             this.DTG_Clientes.DataSource = this.clientesBindingSource;
-            this.DTG_Clientes.Location = new System.Drawing.Point(612, 249);
+            this.DTG_Clientes.Location = new System.Drawing.Point(639, 363);
             this.DTG_Clientes.Margin = new System.Windows.Forms.Padding(4);
             this.DTG_Clientes.Name = "DTG_Clientes";
             this.DTG_Clientes.ReadOnly = true;
@@ -330,6 +334,7 @@ namespace Funeraria
             this.DTG_Clientes.Size = new System.Drawing.Size(1054, 420);
             this.DTG_Clientes.TabIndex = 37;
             this.DTG_Clientes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DTG_Clientes_CellClick);
+            this.DTG_Clientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DTG_Clientes_CellContentClick);
             // 
             // idclienteDataGridViewTextBoxColumn
             // 
@@ -444,10 +449,43 @@ namespace Funeraria
             this.BTN_Eliminar.TabIndex = 40;
             this.BTN_Eliminar.Text = "Eliminar";
             this.BTN_Eliminar.UseVisualStyleBackColor = false;
+            this.BTN_Eliminar.Click += new System.EventHandler(this.BTN_Eliminar_Click);
             // 
             // clientesTableAdapter
             // 
             this.clientesTableAdapter.ClearBeforeFill = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(246, 368);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(16, 17);
+            this.label2.TabIndex = 41;
+            this.label2.Text = "$";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(246, 434);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(16, 17);
+            this.label3.TabIndex = 42;
+            this.label3.Text = "$";
+            // 
+            // btncontinuar
+            // 
+            this.btncontinuar.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btncontinuar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncontinuar.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btncontinuar.Location = new System.Drawing.Point(265, 671);
+            this.btncontinuar.Margin = new System.Windows.Forms.Padding(4);
+            this.btncontinuar.Name = "btncontinuar";
+            this.btncontinuar.Size = new System.Drawing.Size(229, 59);
+            this.btncontinuar.TabIndex = 43;
+            this.btncontinuar.Text = "Continuar";
+            this.btncontinuar.UseVisualStyleBackColor = false;
+            this.btncontinuar.Click += new System.EventHandler(this.btncontinuar_Click);
             // 
             // segundapantalla
             // 
@@ -455,6 +493,9 @@ namespace Funeraria
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(1647, 761);
+            this.Controls.Add(this.btncontinuar);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.BTN_Eliminar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TXB_ID);
@@ -514,7 +555,6 @@ namespace Funeraria
         private System.Windows.Forms.Label lblnombrefuneraria;
         private System.Windows.Forms.Button btnregresar;
         private System.Windows.Forms.ComboBox cboxhijos;
-        private System.Windows.Forms.ComboBox cboxplansugerido;
         private System.Windows.Forms.DataGridView DTG_Clientes;
         private System.Windows.Forms.TextBox TXB_ID;
         private System.Windows.Forms.Label label1;
@@ -530,5 +570,9 @@ namespace Funeraria
         private System.Windows.Forms.DataGridViewTextBoxColumn ingresoMenDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ingresoAcumDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn plansugeridoDataGridViewTextBoxColumn;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btncontinuar;
+        public System.Windows.Forms.ComboBox cboxplansugerido;
     }
 }

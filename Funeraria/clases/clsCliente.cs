@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using System.Data;
 using System.Collections;
 using System.Drawing;
+using System.Windows.Forms;
 
 namespace Funeraria.clases
 {
@@ -22,8 +23,9 @@ namespace Funeraria.clases
         public int hijos { get; set; }
         public float ingresoMen { get; set; }
         public float ingresoAcum { get; set; }
+        public string plansugerido { get; set; }
 
-    
+
         public void Set_Data()
         {
             cmd.Parameters.AddWithValue("@IDCLIENTE", idcliente);
@@ -33,6 +35,7 @@ namespace Funeraria.clases
             cmd.Parameters.AddWithValue("@HIJOS", hijos);
             cmd.Parameters.AddWithValue("@INGRESOMEN", ingresoMen);
             cmd.Parameters.AddWithValue("@INGRESOACUM", ingresoAcum);
+            cmd.Parameters.AddWithValue("@PLANSUGERIDO", plansugerido);
         }
         public bool GuardarCliente()
         {
@@ -50,6 +53,7 @@ namespace Funeraria.clases
             }
             catch (Exception ex)
             {
+                MessageBox.Show("Error al guardar: " + ex);
                 respuesta = false;
             }
             con.Close();
@@ -63,20 +67,23 @@ namespace Funeraria.clases
             cmd.CommandText = "SP_CLIENTE";
 
             cmd.Parameters.AddWithValue("@OP", 2);
-            cmd.Parameters.AddWithValue("@IDCLIENTE", idcliente);
+            Set_Data();
             try
             {
                 con.Open();
                 cmd.ExecuteNonQuery();
+                MessageBox.Show("Eliminación cumplida");
                 respuesta = true;
             }
             catch (Exception ex)
             {
+                MessageBox.Show("Error al Eliminar: " + ex);
                 respuesta = false;
             }
             con.Close();
 
             return respuesta;
         }
+   
     }
 }

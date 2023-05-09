@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,14 +48,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="clases\clsCliente.cs" />
+    <Compile Include="clases\clsMetricas.cs" />
     <Compile Include="clases\conexion.cs" />
     <Compile Include="clases\clsPaquete.cs" />
     <Compile Include="clases\clsRecibo.cs" />
     <Compile Include="clases\Limpiar.cs" />
+    <Compile Include="DS_Clientes_Melisa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_Clientes_Melisa.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DS_Funeraria.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DS_Funeraria.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_Funeraria_Melisa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_Funeraria_Melisa.xsd</DependentUpon>
     </Compile>
     <Compile Include="Formas\cuartapantalla.cs">
       <SubType>Form</SubType>
@@ -103,6 +115,17 @@
     <EmbeddedResource Include="Formas\tercerapantalla.resx">
       <DependentUpon>tercerapantalla.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DS_Clientes_Melisa.xsc">
+      <DependentUpon>DS_Clientes_Melisa.xsd</DependentUpon>
+    </None>
+    <None Include="DS_Clientes_Melisa.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_Clientes_Melisa.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_Clientes_Melisa.xss">
+      <DependentUpon>DS_Clientes_Melisa.xsd</DependentUpon>
+    </None>
     <None Include="DS_Funeraria.xsc">
       <DependentUpon>DS_Funeraria.xsd</DependentUpon>
     </None>
@@ -113,6 +136,17 @@
     </None>
     <None Include="DS_Funeraria.xss">
       <DependentUpon>DS_Funeraria.xsd</DependentUpon>
+    </None>
+    <None Include="DS_Funeraria_Melisa.xsc">
+      <DependentUpon>DS_Funeraria_Melisa.xsd</DependentUpon>
+    </None>
+    <None Include="DS_Funeraria_Melisa.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_Funeraria_Melisa.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS_Funeraria_Melisa.xss">
+      <DependentUpon>DS_Funeraria_Melisa.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

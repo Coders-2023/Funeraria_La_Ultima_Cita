@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Funeraria.clases;
 
 namespace Funeraria
 {
@@ -29,6 +30,12 @@ namespace Funeraria
             this.Close();
             Form regresar = new segundapantalla();
             regresar.Show();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            //cboxplansugerido;
+            //oCliente.plansugerido = CL_Plan;
         }
     }
 }
